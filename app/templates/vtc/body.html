@@ -1,0 +1,12 @@
+{% extends 'home.html' %}
+{% block body %}
+    <body class="hold-transition sidebar-mini layout-fixed" id="body-pd">
+    {% include 'vtc/sidebar.html' %}
+    {% include 'Greeting.html' %}
+    {% block content %}
+
+    {% endblock %}
+    {% block javascript %}
+    {% endblock %}
+    </body>
+{% endblock %}
